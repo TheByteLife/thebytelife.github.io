@@ -3,61 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="color-scheme" content="light dark">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.red.min.css">
-    <style>
-    /* -------------------------------------------------
-       Retro terminal theme – think green on black,
-       but with a pinch of neon for modern flair.
-    --------------------------------------------------- */
-    :root {
-      --bg: #0d0d0d;
-      --fg: #00ff41;          /* classic “matrix” green */
-      --accent: #ff4081;      /* neon pink for highlights */
-      --font-mono: 'Courier New', Courier, monospace;
-    }
-    
-    /* Global reset */
-    * { margin:0; padding:0; box-sizing:border-box; }
-    body { background:var(--bg); color:var(--fg); font-family:var(--font-mono); line-height:1.5; }
-    
-    header, footer { padding:1rem; text-align:center; }
-    nav a { color:var(--accent); text-decoration:none; margin:0 .5rem; }
-    nav a:hover { text-decoration:underline; }
-    
-    h1, h2, h3 { font-weight:normal; margin-bottom:.5rem; }
-    h1 { font-size:2rem; }
-    h2 { font-size:1.5rem; }
-    h3 { font-size:1.25rem; }
-    
-    section { margin:2rem 0; }
-    ul { list-style: square inside; margin-left:1rem; }
-    
-    a { color:var(--accent); }
-    a:hover { opacity:.8; }
-    
-    /* Small “glitch” animation for fun */
-    @keyframes flicker {
-      0%,100% { opacity:1; }
-      50% { opacity:.6; }
-    }
-    a:hover { animation:flicker .3s infinite alternate; }
-    </style>
+    <meta name="color-scheme" content="dark">
+    <link rel="stylesheet" href="css/pico.min.css">
     <title>The Byte Life</title>
   </head>
   <body>
-    <header class="container">
-      <h1>The Byte Life</h1>
-    </header>
     <main class="container">
-      <p>
-        <span aria-busy="true">Coming soon...</span>
-      </p>
+      <h1 alt="01010100 01101000 01100101 00100000 01000010 01111001 01110100 01100101 00100000 01001100 01101001 01100110 01100101">The Byte Life</h1>
     </main>
-    <footer class="container">
-      <p>
-        <small>00101101 01010100 01101000 01100101 00100000 01000010 01111001 01110100 01100101 00100000 01001100 01101001 01100110 01100101 00101101</small>
-      </p>
-    </footer>
   </body>
 </html>
