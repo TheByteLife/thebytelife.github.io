@@ -6,8 +6,9 @@
     <meta name="color-scheme" content="dark">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rock+Salt&amp;family=Rubik+Glitch&amp;display=swap">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.colors.min.css">
     <title>The Byte Life</title>
     <style>
       .hero {
@@ -18,12 +19,28 @@
         font-family: "Rubik Glitch", system-ui;
         font-weight: 400;
         font-style: normal;
+        font-size: 8rem;
+      }
+      .hero .by {
+        text-align: right;
+        position: relative;
+        top: -55px;
+      }
+      .hero .name {
+        font-family: "Rock Salt", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.2em;
       }
     </style>
   </head>
   <body>
     <main class="container grid hero">
-      <h1 title="01010100 01101000 01100101 00100000 01000010 01111001 01110100 01100101 00100000 01001100 01101001 01100110 01100101">The Byte Life</h1>
+      <div>
+        <h1>The Byte Life</h1>
+        <p class="by">by <span class="name">Kyuzo Nakamaru</span></p>
+        <p style="text-align: center;">coming soon...</p>
+      </div>
     </main>
   </body>
 </html>
