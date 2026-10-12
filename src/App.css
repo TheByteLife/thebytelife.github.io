@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Rubik+Glitch&display=swap');
+
+:root,:host {
+  --background-main-canvas: var(--pico-background-color);
+}
+
+body {
+  /*background: linear-gradient(135deg, var(--pico-primary-background), var(--pico-background-color));*/
+}
+.hero {
+  min-height: 100svh;
+  place-items: center;
+  opacity: 0;
+  animation: fade-in 0.75s linear forwards;
+}
+.hero div.container {
+  text-align: center;
+}
+.hero h1 {
+  font-family: "Rubik Glitch", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 8rem;
+  text-shadow: 5px 5px 15px var(--pico-background-color);
+}
+.hero .by {
+  text-align: right;
+  position: relative;
+  top: -55px;
+  right: 170px;
+}
+.hero .name {
+  font-family: "Rock Salt", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2em;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
